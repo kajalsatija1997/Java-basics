@@ -8,7 +8,6 @@ public class CreationOfThreads {
         t.start(); //Starts a new thread
 
 
-
         //Second way of creating threads
         Thread task=new Thread(new MyTask());
         task.start();
