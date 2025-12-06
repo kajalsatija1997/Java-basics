@@ -2,10 +2,15 @@ package jia.oops.assignment1;
 
 public class DollDriver {
     public static void main(String[] args) {
-        Doll doll1=new Doll(true, "Stacy");
-        Doll doll2=new Doll(false, "Tammy");
+        Doll doll1=new Doll();
+        doll1.setName("Stacy");
+        doll1.setInteractive(true);
 
-        System.out.println(doll1);
+        Doll doll2=new Doll();
+        doll2.setName("Tammy");
+        doll2.setInteractive(false);
+
+        System.out.println(doll1    );
         System.out.println(doll2);
 
         //change name using setter

@@ -4,12 +4,6 @@ public class Doll {
     private boolean interactive;
     private String name;
 
-    //parametrized constructor
-    public Doll(boolean interactive,String name)
-    {
-        this.interactive=interactive;
-        this.name=name;
-    }
 
     //Getters
     public boolean getInteractive()
