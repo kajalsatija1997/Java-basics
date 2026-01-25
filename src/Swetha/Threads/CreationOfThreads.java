@@ -11,5 +11,15 @@ public class CreationOfThreads {
         //Second way of creating threads
         Thread task=new Thread(new MyTask());
         task.start();
+
+
+        //OLD WAY OF DOING
+        Runnable r= () -> System.out.println("Running");
+
+        //Second way of creating threads
+        Thread task2=new Thread(r);
+        task2.start();
     }
+
+
 }
