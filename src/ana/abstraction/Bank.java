@@ -1,5 +1,7 @@
 package ana.abstraction;
 
+import java.util.*;
+
 //Lets hide complex banking operations(like loan approvals) behind simple abstract methpds, so
 //just user calls them without knowing how they work
 public abstract class Bank {
@@ -11,6 +13,9 @@ public abstract class Bank {
 
     public void openAccount()
     {
+        Map<String,Integer> hm=new HashMap<>();
+        hm.put("kajal",1);
+        // Map
         System.out.println("Account opened successfully!");
     }
 
