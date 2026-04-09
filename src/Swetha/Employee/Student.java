@@ -5,6 +5,19 @@ public class Student {
     String sname, sbranch;
     char sgrade;
 
+    public Student()
+    {
+        sid=0;
+        smarks=0;
+    }
+
+    public Student(int sid, int smarks)
+    {
+        this.sid=sid;
+        this.smarks=smarks;
+    }
+
+
     void calcGrade() {
         if (smarks >= 80)
             sgrade = 'A';
